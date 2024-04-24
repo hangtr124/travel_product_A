@@ -1,0 +1,109 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+background-color: lightblue;
+}
+
+header {
+background-color: darkblue;
+color: white;
+padding: 30px;
+}
+
+nav {
+float: left;
+width: 30%;
+}
+
+section {
+float: right;
+width: 70%;
+}
+
+/* Clear floats after the header */
+header:after {
+content: "";
+display: table;
+clear: both;
+}
+
+footer {
+background-color: darkblue;
+color: white;
+text-align: center;
+padding: 10px;
+}
+
+/* Style the form */
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+
+/* Center the image */
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Travel Company</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+</nav>
+</header>
+
+<section>
+
+<h2>Featured Product</h2>
+
+<img src="travel.jpg">
+
+<p>Description of featured travel package.</p>
+
+<h2>Contact Us</h2>
+
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+
+
+
+<label for="email">Email:</label>
+<input type="text" id="email" name="email"><br><br>
+
+<input type="submit" value="Submit">
+</form>
+
+</section>
+
+<footer>
+<p>Copyright 2021</p>
+</footer>
+
+<script>
+// JavaScript code
+</script>
+
+</body>
+</html>
+
+
+
